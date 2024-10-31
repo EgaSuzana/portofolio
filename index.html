@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ega's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1>Ega Suzana</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="intro">
+            <h2>Hi, It's <span class="highlight">Ega Suzana</span></h2>
+            <p>I'm a <span id="role" class="dynamic-text"></span></p>
+            <button class="contact-button">Contact Me</button>
+        </div>
+        <div class="profile-image">
+            <img src="assets/me.jpg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Saya Ega Suzana, seorang siswa PPLG di Smk Negeri 4 Tasikmalaya. Saya tertarik dalam pengembangan web, terutama dengan vue.js dan bootstrap. Saya juga pernah mengerjakan proyek kreatif, termasuk desain logo dan pengelolaan media sosial.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <!-- Portfolio Section -->
+<section id="portfolio" class="section">
+    <h2>My Project</h2>
+    <div class="projects">
+        <!-- Proyek 1 -->
+        <a href="https://piket-guru.vercel.app" target="_blank" class="project">
+            <img src="assets/digital.png" alt="piket-guru">
+            <p>Piket Guru</p>
+        </a>
+        <!-- Proyek 2 -->
+        <a href="https://perpusdigital-alpha.vercel.app" target="_blank" class="project">
+            <img src="assets/perpus.png" alt="perpus">
+            <p>Perpus Digital</p>
+        </a>
+        <!-- Tambahkan lebih banyak proyek sesuai kebutuhan -->
+    </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+        <div class="skills-icons">
+            <img src="assets/html5.png" alt="HTML">
+            <img src="assets/css.png" alt="CSS">
+            <img src="assets/JavaScript-logo.png" alt="JavaScript">
+            <img src="assets/vue.png" alt="vue">
+            <img src="assets/figma-logo-512.webp" alt="Figma">
+            <img src="assets/bootstrap-social-logo.png" alt="bootstrap">
+            <img src="assets/ml.jpg" alt="bootstrap">
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

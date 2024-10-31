@@ -1,0 +1,198 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  padding: 130px;
+  text-align: center;
+}
+
+/* Navbar */
+nav {
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+}
+nav h1 {
+  color: #0626d8;
+  font-size: 20px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+nav ul li a:hover {
+  background-color: #00aaff;
+  border-radius: 5px;
+}
+
+/* Home Section */
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+.intro {
+  max-width: 500px;
+}
+.highlight {
+  color: #0626d8;
+  text-shadow: 0 0 10px #0626d8;
+  font-size: 2.5em;
+}
+.dynamic-text {
+  color: #0626d8;
+  text-shadow: 0 0 10px #0626d8;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.contact-button {
+  background-color: #00aaff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  box-shadow: 0 0 10px #00aaff;
+  transition: background 0.3s, transform 0.2s;
+}
+.contact-button:hover {
+  background-color: #0088cc;
+  transform: scale(1.05);
+}
+
+/* Profile Image */
+.profile-image img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 0 10px #00aaff;
+}
+
+/* About Me Section */
+#about h2 {
+  color: #0626d8;
+  text-shadow: 0 0 10px #0626d8;
+  margin-bottom: 20px;
+}
+
+/* Projects Section */
+#portfolio h2 {
+  color: #0626d8;
+  text-shadow: 0 0 10px #0626d8;
+  margin-bottom: 20px;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00aaff;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  text-decoration: none; /* Menghilangkan garis bawah pada teks link */
+}
+
+.project img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00aaff;
+}
+
+.project p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 1em;
+}
+/* Skills Section */
+#skills h2 {
+  color: #0626d8;
+  text-shadow: 0 0 10px #0626d8;
+  margin-bottom: 20px;
+}
+.skills-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.skills-icons img {
+  width: 50px;
+  margin: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.skills-icons img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #0626d8;
+}
+
+/* Contact Section */
+#contact h2 {
+  color: #0626d8;
+  text-shadow: 0 0 10px #0626d8;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+form input, form textarea {
+  padding: 10px;
+  background: #222;
+  border: 1px solid #555;
+  color: #fff;
+  border-radius: 5px;
+}
+form button {
+  background-color: #00aaff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  box-shadow: 0 0 10px #00aaff;
+  transition: background 0.3s, transform 0.2s;
+}
+form button:hover {
+  background-color: #0088cc;
+  transform: scale(1.05);
+}
